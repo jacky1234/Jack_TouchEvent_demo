@@ -52,7 +52,7 @@ public class MyViewGroup3 extends LinearLayout {
                 Log.i("jack", "MyViewGroup3:onInterceptTouchEvent->ACTION_UP");
                 break;
         }
-        return false;      //默认返回 false
+        return true;      //默认返回 false
     }
 
     @Override
@@ -68,6 +68,6 @@ public class MyViewGroup3 extends LinearLayout {
                 Log.i("jack", "MyViewGroup3:onTouchEvent->ACTION_UP");
                 break;
         }
-        return true;
+        return false;
     }
 }
