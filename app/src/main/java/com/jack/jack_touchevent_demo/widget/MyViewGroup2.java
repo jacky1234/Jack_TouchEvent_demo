@@ -60,7 +60,7 @@ public class MyViewGroup2 extends LinearLayout {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 Log.w("jack", "MyViewGroup2:onTouchEvent->ACTION_DOWN");
-                break;
+                return true;
             case MotionEvent.ACTION_MOVE:
                 Log.w("jack", "MyViewGroup2:onTouchEvent->ACTION_MOVE");
                 break;
@@ -68,6 +68,6 @@ public class MyViewGroup2 extends LinearLayout {
                 Log.w("jack", "MyViewGroup2:onTouchEvent->ACTION_UP");
                 break;
         }
-        return super.onTouchEvent(event);
+        return false;
     }
 }

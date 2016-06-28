@@ -70,6 +70,6 @@ public class MyViewGroup1 extends LinearLayout {
                 Log.e("jack", "MyViewGroup1:onTouchEvent->ACTION_UP");
                 break;
         }
-        return super.onTouchEvent(event);
+        return true;
     }
 }
