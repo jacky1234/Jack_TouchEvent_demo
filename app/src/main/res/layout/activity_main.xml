@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jack.jack_touchevent_demo.widget.MyViewGroup1 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <com.jack.jack_touchevent_demo.widget.MyViewGroup2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_purple">
+
+        <com.jack.jack_touchevent_demo.widget.MyViewGroup3
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@android:color/background_light">
+
+            <com.jack.jack_touchevent_demo.widget.MyViewGroup4
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@android:color/holo_green_light">
+
+                <com.jack.jack_touchevent_demo.widget.MyView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/holo_green_dark"></com.jack.jack_touchevent_demo.widget.MyView>
+            </com.jack.jack_touchevent_demo.widget.MyViewGroup4>
+        </com.jack.jack_touchevent_demo.widget.MyViewGroup3>
+    </com.jack.jack_touchevent_demo.widget.MyViewGroup2>
+</com.jack.jack_touchevent_demo.widget.MyViewGroup1>
